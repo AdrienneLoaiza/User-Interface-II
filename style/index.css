@@ -1,1 +1,125 @@
-/* Add CSS styling here */
+*{
+  box-sizing:border-box;
+  padding:0;
+  margin:0;
+  max-width:100%;
+  border:0px solid grey;
+}
+header{
+  background-color:#badcde;
+}
+
+h1{
+  font-size: 40px;
+  margin-left: 3%;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+h2{
+  font-size: 32px;
+  margin: 1%;
+  padding: 10px;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+p{
+  width: 55%;
+  color: white;
+  font-size: 20px;
+}
+
+nav a {
+  color:white;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size:18px;
+  margin:2%
+}
+nav a:hover {
+  text-decoration: underline;
+  }
+.title-container{
+  display:flex;
+  flex-direction: row;
+  height: 300px;
+}
+
+.tc-right{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  padding:10%
+}
+
+.bird{
+  margin-left:23%;
+  padding:1%
+}
+.p1{
+  width: 15%;
+  border:5px solid white;
+}
+.p2{
+  width:15%;
+  border:5px solid white;
+}
+
+.p3{
+  width:15%;
+  border:5px solid white;
+}
+
+.p4{
+  width:15%;
+  border:5px solid white;
+}
+.p5{
+  width:15%;
+  border:5px solid white;
+}
+.p6{
+  width:15%;
+  border:5px solid white;
+}
+.p7{
+  width:15%;
+  border:5px solid white;
+}
+.p8{
+  width:15%;
+  border:5px solid white;
+}
+
+.projectrow1{
+  display: flex;
+  justify-content: space-around;
+  padding:2%;
+  background-color:#91c7ca;
+}
+
+.projectrow2{
+  display:flex;
+  justify-content: space-around;
+  padding:2%;
+  background-color: cadetblue;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#2e5e60;
+}
+
+button{
+  padding: 1%;
+  margin: 2%;
+}
+.links{
+  padding: 1%;
+}
