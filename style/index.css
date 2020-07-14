@@ -1,1 +1,275 @@
-/* Add CSS styling here */
+*{
+  box-sizing: border-box;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 8px;
+    font-family: 'Anonymous Pro', monospace;
+    color: white;
+}
+header{
+  background-color:#EDC4B3;
+
+}
+h1{
+  font-size: 40px;
+  margin-left: 3%;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+h2{
+  font-size: 32px;
+  margin: 0%;
+  padding: 10px;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+h3{
+  color: black;
+  text-align: center;
+}
+p{
+  width: 55%;
+  color:black;
+  font-size: 20px;
+}
+
+nav a {
+  color:white;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size:18px;
+  margin:2%
+  
+}
+nav a:hover {
+  text-decoration: underline;
+  color: gold;
+  
+  }
+.title-container{
+  display:flex;
+  flex-direction: row;
+  height: 300px;
+  background-color: #DEAB90;
+}
+
+.tc-right{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  margin: 1%;
+}
+
+.bird {
+  margin: 1%;
+  padding: 0%;
+  text-decoration: none;
+}
+
+img.bird {
+  width: 40%;
+  border: 10px solid white;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#774936;
+}
+
+button{
+  float: left;
+  padding: 1%;
+  margin: 2%;
+  border-radius: 10px;
+  border: 1px solid black;
+  color: black;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: gold;
+  text-decoration: underline ;
+}
+
+.links{
+  padding: 1%;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  background-color:#CD9777;
+}
+
+.flex-container div img{
+  height: 237px;
+  width: 350px;
+  background-color: bisque;
+  border: 10px solid white;
+  margin: 20px;
+}
+
+.flex-container2{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  background-color: #9D6B53;
+}
+
+.flex-container2 div img{
+  height: 237px;
+  width: 350px;
+  background-color: bisque;
+  border: 10px solid white;
+  margin: 20px;
+}
+
+img:hover{
+  color: purple;
+  cursor: pointer;
+}
+ 
+
+@media (max-width:800px){
+  body{
+    background-color:blue;
+  }
+  header{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:2%;
+  }
+  nav a{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:2%;
+  }
+  .title-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    height:800px;
+  }
+  .bird{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:3%;
+  }
+  
+  .flex-container{
+    display:flex;
+    flex-wrap:wrap;
+  }
+  
+  .flex-container div{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content: space-evenly;
+    width:40%;
+    margin:5%;
+  }
+  .flex-container div img{
+    display:flex;
+    flex-wrap:wrap;
+}
+  .flex-container2{
+    display:flex;
+    flex-wrap:wrap;
+  }
+  
+  .flex-container2 div{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content: space-evenly;
+    width:40%;
+    margin:5%;
+  }
+
+  .flex-container2 div img{
+    display:flex;
+    flex-wrap:wrap;
+  }
+}
+@media(max-width:500px){
+  
+  h1{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    color:red;
+     font-size:35px;
+}
+  header{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  h2{
+    font-size:25px;
+    color:black;
+  }
+
+  .title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 605px;
+  }
+  flex-container{
+    display:flex;
+    flex-wrap:wrap;
+  }
+  
+  .flex-container div{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content: space-evenly;
+    width:40%;
+    margin:5%;
+  }
+  .flex-container div img{
+    display:flex;
+    flex-wrap:wrap;
+    width:100%
+  }
+  flex-container2{
+    display:flex;
+    flex-wrap:wrap;
+  }
+  
+  .flex-container2 div{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content: space-evenly;
+    width:40%;
+    margin:5%;
+  }
+  .flex-container2 div img{
+    display:flex;
+    flex-wrap:wrap;
+    width:100%
+  }
+}
